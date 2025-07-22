@@ -19,7 +19,7 @@ To uncover equity gaps among student groups and provide data driven insights int
   -   Performace Category (Approaches, Meets, Masters)
   -   STAAR Performance Score Percentage
 
-  ## 🧠 Analysis & Modeling Steps
+## 🧠 Analysis & Modeling Steps
   ### 🔹 Data Cleaning and Processing
   - Extracted tables from 2023-24 TAPR PDF reports using `pdfplumber`
   - Parsed district metadata (name, number, county) from file names
@@ -39,19 +39,19 @@ To uncover equity gaps among student groups and provide data driven insights int
        - `Top Performing Group`, `Most Improved Group`, `Top Subject`
        - `State Avg Score (2024)`, `Top Group Score (2024)`
   ---
-  ### 🔹 Visualization
+### 🔹 Visualization
   - Developed an interactive **Power BI dashboard** with above measures to explore trends and disparities:
     -  By **District**, **Grade Level**, **Subject**, and **Student Group**
     -  Includes slicers for filtering by **Year**, **Subject**, **Grade**, and **Performance Category**
 
-  ## 📊 Key Findings
+## 📊 Key Findings
   - **Asian** students group leads performance in 2024 with an average STAAR score of **72.2%**
   - **Special Ed (Current)** students scored **43.5 points lower** than the top performing group in 2024.
   - Largest YoY Improvement: **American Indian Students**
   - Subject with highest underperformance: **Reading**, **Math**, and **Science**
   - District level performance shows **Clear Creek ISD** and **Cy-Fair ISD** outperform Houston ISD and Alief ISD
     
-  ## 📷 Screenshots & Visuals
+## 📷 Screenshots & Visuals
   Power BI dashboard screenshots and PDFs are available in ['/powerbi_visualizations'](./visualizations)
   - Executive Summary
   - STAAR Performance Review
@@ -61,16 +61,16 @@ To uncover equity gaps among student groups and provide data driven insights int
   - Comparison by District and County
   - Performance Category Breakdown
  
-  ## 🚀 How to Run the Project
+## 🚀 How to Run the Project
   1\. Open `notebooks/data_cleaning_and_processing.ipynb` to inspect the data pipeline <br>
   2\. Use  `cleaned_data_final.csv` for additional analysis or dashboard tools like Power BI <br>
   3\. Explore `/powerbi_visualizations` for pre-built insights and reporting PDF's
 
-  ## 📚 Technologies Used
+## 📚 Technologies Used
   - Python (`Pandas`, `Numpy`, `pdfplumber`)
   - Jupyter Notebooks 
   - Power BI (dashboard visuals)
 
-  ## 🙌 Acknowledgements
+## 🙌 Acknowledgements
   - Texas Education Agency (TEA) for providing TAPR data
   - Power BI community for visualization techniques
